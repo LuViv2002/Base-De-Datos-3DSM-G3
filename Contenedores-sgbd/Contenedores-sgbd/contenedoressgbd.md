@@ -74,3 +74,10 @@ docker run -d --name server-postgresg3 \
 -p 5456:5432 -v vol-postgresg3:/var/lib/postgresql/data \
 78481659c47e862334611ccdaf7c369c986b3046da9857112f3b309114a65fb4
 ´´´   
+
+### contenedor de SQL con volumen
+docker run -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=P@ssw0rd" \
+   -u 0 \
+   -p 1450:1433 --name  sqlServerg3 \
+   -d -v vol-sqlServerg3:/var/opt/mssql/data \
+   e07b9
