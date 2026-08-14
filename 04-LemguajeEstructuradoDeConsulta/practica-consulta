@@ -1,0 +1,4 @@
+-- Mostrar las ventas realizadas en Francia, brazil y belgica
+-- de 10 de julio e 1996 al 31 de Diciembre de 1998, que tenga Region de Envio,
+-- para los clientes VICTE, HANAR y SUPRD, y ordenados por fecha de pedido de la mas
+-- cercana a la mas antigua.
